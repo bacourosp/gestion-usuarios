@@ -1,0 +1,41 @@
+<ion-content >
+  <form #form="ngForm" (ngSubmit)="registry(form)">
+    <div id="container">
+      <ion-grid class="ion-align-items-center" >
+    <ion-row  class="ion-justify-content-center">
+      <ion-col  class="ion-align-self-center">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-subtitle class="ion-text-center">backend less</ion-card-subtitle>
+            <ion-card-title class="ion-text-center">REGISTRO API REST</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            <div class="ion-padding">
+              <ion-item> 
+                <ion-input name="name" type="text" placeholder="nombre" ngModel required maxlength></ion-input>
+              </ion-item>
+              <ion-item> 
+                <ion-input name="email" type="email" placeholder="tu@email.com" ngModel required email></ion-input>
+              </ion-item>
+              <ion-item> 
+                <ion-input name="password" type="password" placeholder="Password" ngModel required></ion-input>
+              </ion-item>
+            </div>
+            <div class="ion-padding">
+              <ion-button size="large" type="submit" [disabled]="form.invalid" expand="block">REGISTRO</ion-button>
+            </div>
+            <br>
+            <div class="ion-padding">
+              <p class="ion-text-center" color="primary" (click)="goLogin()">¿Ya tiene tus credenciales?</p>
+            </div>
+          </ion-card-content>
+        </ion-card>
+        
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+    </div>
+  
+</form>
+</ion-content>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1066782247120",
+    "firebase_url": "https://testfirebase-86cd9.firebaseio.com",
+    "project_id": "testfirebase-86cd9",
+    "storage_bucket": "testfirebase-86cd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066782247120:android:013d6b9ca0fcba57a9b6d5",
+        "android_client_info": {
+          "package_name": "com.pablo.humantech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066782247120-6eohfvanjf9uq6c65jg9l4ivm3sptgbd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pablo.humantech",
+            "certificate_hash": "63da83c9fc0fe16623c197bd246fd86c34fa97a8"
+          }
+        },
+        {
+          "client_id": "1066782247120-e2kd8jp0c76lcnid0iipl39g77bop5tc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2q15BOgZZrpASLVBnE-I8YzzZND0UaK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066782247120-e2kd8jp0c76lcnid0iipl39g77bop5tc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
